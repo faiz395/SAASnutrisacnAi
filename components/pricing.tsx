@@ -43,7 +43,7 @@ const tiers = [
 export function Pricing() {
   return (
     <section id="pricing" className="py-20 sm:py-32">
-      <div className="container">
+      <div className="container  max-w-7xl mx-auto max-sm:px-4">
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">Pricing Plans</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
@@ -81,7 +81,7 @@ export function Pricing() {
                   ))}
                 </ul>
               </div>
-              <Button className="mt-8 block w-full" href={tier.href}>
+              <Button className="mt-8 block w-full">
                 Get started
               </Button>
             </div>

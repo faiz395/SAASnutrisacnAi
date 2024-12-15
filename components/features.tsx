@@ -26,7 +26,7 @@ const features = [
 export function Features() {
   return (
     <section id="features" className="py-20 sm:py-32">
-      <div className="container">
+      <div className="container  max-w-7xl mx-auto max-sm:px-4">
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">Key Features</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
@@ -39,7 +39,7 @@ export function Features() {
               <div key={feature.name} className="flex flex-col">
                 <dt className="text-base font-semibold leading-7 text-gray-900 dark:text-white">
                   <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-                    <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
+                    <feature.icon className="h-6 w-6 text-white dark:text-black" aria-hidden="true" />
                   </div>
                   {feature.name}
                 </dt>
