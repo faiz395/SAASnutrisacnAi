@@ -33,7 +33,7 @@ export function HowItWorks() {
 
         <div className="mt-16 sm:mt-20">
           <div className="flex flex-wrap flex-row justify-center gap-8 items-center">
-            <div className="mt-16 flex justify-center">
+            <div className="my-16 flex justify-center">
               <Image
                 src={howItWorks}
                 alt="How It Works Illustration"
